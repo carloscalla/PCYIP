@@ -1,0 +1,92 @@
+#msg{
+
+	height: 400px;
+	width: 500px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -250px;
+  margin-top: -200px;
+	border: 2px solid #00000000;
+	background-color: #C0C0C0;
+	color: white;
+  font-size: 35px;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+	text-shadow: 2px 2px 2px #000;
+  	
+ 	text-align: center;
+ 	-webkit-box-shadow: 15px 15px 15px rgba(0,0, 0, 0.2);
+ 	-moz-box-shadow: 15px 15px 15px rgba(0,0, 0, 0.2);
+ 	box-shadow: 15px 15px 15px rgba(0,0, 0, 0.2);
+ 	cursor: pointer;
+
+  -moz-transition: -moz-transform .2s;
+  -webkit-transition: -webkit-transform .2s;
+  -o-transition: -o-transform .2s;
+  transition: transform .2s;
+
+}
+
+#pal1{
+  margin-top: 30px;
+  -moz-transition: -moz-transform .2s;
+  -webkit-transition: -webkit-transform .2s;
+  -o-transition: -o-transform .2s;
+  transition: transform .2s;
+}
+#pal2{
+  margin-top: 5px;
+  -moz-transition: -moz-transform .2s;
+  -webkit-transition: -webkit-transform .2s;
+  -o-transition: -o-transform .2s;
+  transition: transform .2s;
+}
+
+img{
+  -moz-transition: -moz-transform .2s;
+  -webkit-transition: -webkit-transform .2s;
+  -o-transition: -o-transform .2s;
+  transition: transform .2s;
+}
+
+#msg:hover,
+#msg:focus,
+#msg:active {
+
+ 	-webkit-transform: rotate(-4deg) scale(1.0);
+  -moz-transform: rotate(-4deg) scale(1.0);
+  transform: rotate(-4deg) scale(1.0);
+    
+}
+#pal1:hover,
+#pal1:focus,
+#pal1:active {
+ 	-webkit-transform: rotate(0deg) scale(1.5);
+  -moz-transform: rotate(0deg) scale(1.5);
+  transform: rotate(0deg) scale(1.5);
+    
+}
+
+#pal2:hover,
+#pal2:focus,
+#pal2:active {
+  	-webkit-transform: rotate(0deg) scale(1.5);
+    -moz-transform: rotate(0deg) scale(1.5);
+    transform: rotate(0deg) scale(1.5);
+    
+}
+
+img{
+    -webkit-transform: rotate(0deg) scale(1);
+    -moz-transform: rotate(0deg) scale(1);
+    transform: rotate(0deg) scale(1);
+
+}
+img:hover,
+img:focus,
+img:active{
+    -webkit-transform: rotate(0deg) scale(1.1);
+    -moz-transform: rotate(0deg) scale(1.1);
+    transform: rotate(0deg) scale(1.1);
+
+}
